@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    body{
+        font-family: arial;
+    }
+    .tab {
+        width: 600px;
+        margin: 0 auto;
+    }
+    .tab>table {
+        margin-top: 30px;
+    }
+    .tab-ct {
+        border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid #ccc;
+            
+    }
+    .tab-ct2{
+        border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid #ccc;
+    }
+    .tab-ct tr{
+        border-bottom: 1px solid #ddd;
+            text-align: left;
+    }
+    .tab-ct2 tr{
+        border-bottom: 1px solid #ddd;
+            text-align: left;
+    }
+    .tbo tr:nth-child(2n-1) {
+        background-color: #f1f1f1;
+    }
+    .a tr {
+        color: #fff;
+        background-color: #4caf50;
+       padding: 8px 8px; 
+        font-weight: bold;
+    }
+    .tab-ct2 {
+        border: none;
+    }
+
+    </style>
+</head>
+<body>
+<div class="tab">
+    <table class="tab-ct">
+        <thead class="a">
+            <tr>
+                <td>first name</td>
+                <td>last name</td>
+                <td>point</td>
+            </tr>
+        </thead>
+        <tbody class="tbo">
+            <tr>
+                <td>jill</td>
+                <td>simmth</td>
+                <td>50</td>
+            </tr>
+           <tr>
+               <td>eve</td>
+               <td>jovkson</td>
+               <td>94</td>
+           </tr>
+           <tr>
+               <td>adam</td>
+               <td>jonhson</td>
+               <td>67</td>
+           </tr>
+           <tr>
+               <td>bo</td>
+               <td>nillson</td>
+               <td>50</td>
+           </tr>
+           <tr>
+               <td>milk</td>
+               <td>ross</td>
+               <td>35</td>
+           </tr>
+        </tbody>
+    </table>
+     <table class="tab-ct2">
+        <thead class="b">
+            <tr>
+                <td>first name</td>
+                <td>last name</td>
+                <td>point</td>
+            </tr>
+        </thead>
+        <tbody class="tbo a1">
+            <tr>
+                <td>jill</td>
+                <td>simmth</td>
+                <td>50</td>
+            </tr>
+           <tr>
+               <td>eve</td>
+               <td>jovkson</td>
+               <td>94</td>
+           </tr>
+           <tr>
+               <td>adam</td>
+               <td>jonhson</td>
+               <td>67</td>
+           </tr>
+           <tr>
+               <td>bo</td>
+               <td>nillson</td>
+               <td>50</td>
+           </tr>
+           <tr>
+               <td>milk</td>
+               <td>ross</td>
+               <td>35</td>
+           </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
